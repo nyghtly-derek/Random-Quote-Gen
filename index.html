@@ -11,13 +11,19 @@
             <div id="js-quote-box__quote" class="quote-box__quote">
                 "Random quote goes here" -Author
             </div>
-            <div class="quote-box__tweet-me">
-                <a href="https://twitter.com/intent/tweet?text=Hello%20world">TweetMe</a>
-            </div>
-            <button class="quote-box__button" onclick="generateQuote()">Generate New Quote</button>
+            <button class="quote-box__button" 
+                    onclick="generateQuote()">
+                Generate New Quote
+            </button>
+            <a href="#" 
+               class="quote-box__tweet-me"
+               id="js-quote-box__tweet-me"
+               onclick="tweetQuote()">
+                TweetMe
+            </a>
         </div>
       
     <!---------------- javaScript ------------------>
-    <script src="script.js"></script>
+    <script src="quote-generator.js"></script>
   </body>
 </html>
